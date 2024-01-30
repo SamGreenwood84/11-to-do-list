@@ -1,13 +1,13 @@
 # 11-to-do-list
 Express.js Challenge: Note Taker
 
-User Story
+**User Story**
 
-AS A small business owner
+AS A busy parent and small business owner
 
-I WANT to be able to write and save notes
+I WANT to be able to write a to-do-list and save detailed notes
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+SO THAT I can stay organized and producive each day
 
 Acceptance Criteria
 
