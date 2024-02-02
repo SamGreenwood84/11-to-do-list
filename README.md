@@ -83,5 +83,15 @@ Learning Assistant- ask-300573 (Ntsika Silvano @nsilvano)
 router.delete()
 [stackoverflow.com](stackoverflow.com/questions/68613707/how-to-fix-router-delete-which-is-not-working-express)
 
-*My Git Hub Information**
+**My Git Hub Information**
+
+*Profile:* 
+https://github.com/SamGreenwood84/11-to-do-list.git
+
+*Repo:*
+git@github.com:SamGreenwood84/11-to-do-list.git
+
+*Pages:*
+https://samgreenwood84.github.io/11-to-do-list/
+
 
