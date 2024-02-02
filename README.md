@@ -67,6 +67,7 @@ You'll need to find a way to give each note a unique id when it's saved (look in
 # References
 
 Tutor-Benicio Lopez 
+
 ```javascript
 //Middleware
 app.use(express.json())
@@ -74,4 +75,6 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.static("public"))
 app.use("/", htmlRoutes)
 ```
+Learning Assistant- ask-300573 (Ntsika Silvano @nsilvano)
 
+[iamwebwiz.medium.com](iamwebwiz.medium.com/how-to-fix-dirname-is-not-defined-in-es-module-scope-34d94a86694d)
