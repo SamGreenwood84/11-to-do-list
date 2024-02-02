@@ -25,4 +25,23 @@ fs.writeFile('./db/db.json', JSON.stringify(noteData), function (err) {
 res.json(req.body);
 });
 
+router.delete("/notes/:id", (req,res) => {
+    const noteId = req.params.id;
+    //find note index with id provided
+    const noteIndex = noteData.findIndex(note => note.id === noteId);
+    //if found remove from array
+    if (noteIndex !== -1) {
+        noteData.splice(noteIndex, 1);
+    //save update to db.json file
+    fs.writeFile('./db/db.json', JSON.stringify(noteData), function (err) {
+        if (err) throw err;
+        console.log('Note deleted!');
+    });
+    
+     res.json({ message: 'Note deleted successfully' });
+    } else {
+    res.status(404).json({ message: 'Note not found' });
+    }
+    });
+
 export default router;
