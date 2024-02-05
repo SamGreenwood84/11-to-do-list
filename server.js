@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 import htmlRoutes from "./routes/htmlRoutes.js";
 import apiRoutes from "./routes/apiRoutes.js";
 
