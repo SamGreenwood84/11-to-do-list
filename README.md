@@ -1,4 +1,5 @@
 # 11-to-do-list
+
 Express.js Challenge: Note Taker
 
 ![alt text](public/assets/images/Mockup.png)
@@ -21,7 +22,7 @@ THEN I am presented with a landing page with a link to a notes page
 
 WHEN I click ![alt text](image.png)
 
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text 
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text
 in the right-hand column
 
 ![alt text](public/assets/images/example.png)
@@ -59,40 +60,45 @@ THEN any notes with a unique identifier provided from the UUIDV4 Library will be
 
 I used lessons from our class materials as well as referenced my tutor and askBCS along with sources provided by them listed below.
 
-Tutor-Benicio Lopez 
+Tutor-Benicio Lopez
 
 ```javascript
 //Middleware
-app.use(express.json())
-app.use(express.urlencoded({extended:true}))
-app.use(express.static("public"))
-app.use("/", htmlRoutes)
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
+app.use("/", htmlRoutes);
 ```
-and 
+
+and
 
 UUIDV4 library
 
- [npm.js.com](www.npmjs.com/package/uuidv4) 
+[npm.js.com](www.npmjs.com/package/uuidv4)
 
 Learning Assistant- ask-300573 (Ntsika Silvano @nsilvano)
 
 [iamwebwiz.medium.com](iamwebwiz.medium.com/how-to-fix-dirname-is-not-defined-in-es-module-scope-34d94a86694d)
 
-*Bonus Reference*
+_Bonus Reference_
 
 router.delete()
 [stackoverflow.com](stackoverflow.com/questions/68613707/how-to-fix-router-delete-which-is-not-working-express)
 
+Assert for import of json file: [Stackoverflow.com](https:///stackoverflow.com/questions/70106880/err-import-assertion-type-missing-for-import-of-json-file)
+
 **My Git Hub Information**
 
-*Profile:* 
+_Profile:_
 https://github.com/SamGreenwood84/11-to-do-list.git
 
-*Repo:*
+_Repo:_
 git@github.com:SamGreenwood84/11-to-do-list.git
 
-*Render Deployment*
+_Render Deployment_
+
 ```java
 const port = process.env.PORT || 3001
 ```
+
 Link: https://to-do-list-9ttv.onrender.com

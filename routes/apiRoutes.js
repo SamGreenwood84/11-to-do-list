@@ -1,9 +1,13 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from 'url';
+import assert from "assert"
 import noteData from "../db/db.json" with { type: "json" };
 import fs from "fs";
 import { uuid } from 'uuidv4';
+
+//added assert method 
+assert(noteData, 'Failed to load db.json');
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
